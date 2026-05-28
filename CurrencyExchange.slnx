@@ -1,0 +1,16 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+  </Configurations>
+  <Project Path="CurrencyClient/CurrencyClient.csproj" Id="0182ad30-8321-410c-9f3c-e3ff85ad0be6" />
+  <Project Path="CurrencyHost/CurrencyHost.csproj" Id="909df9f3-e34d-4e32-b386-72a7656c7fbf">
+    <Platform Solution="*|x64" Project="x64" />
+  </Project>
+  <Project Path="CurrencyService/CurrencyService.csproj" Id="e785a172-54e4-4eaa-9b45-e8e07138d243">
+    <Platform Solution="*|x64" Project="x64" />
+  </Project>
+  <Project Path="CurrencyWpfClient/CurrencyWpfClient.csproj" Id="54d9c4c4-f37c-4615-8b2c-c10f0cec836d">
+    <Platform Solution="Debug|x64" Project="x64" />
+  </Project>
+</Solution>
